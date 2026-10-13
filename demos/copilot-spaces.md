@@ -12,6 +12,11 @@ Al finalizar este demo, podrás:
 
 **Tiempo Estimado:** 20-25 minutos
 
+> **Dependencia externa:** esta demo requiere acceso a Copilot Spaces y a las
+> fuentes con la cuenta del workshop. Si no está disponible, usa un Space
+> preparado o ejecuta los mismos prompts en Copilot Chat adjuntando los archivos.
+> La aplicación base usa datos mock, una subida simulada y no implementa APIs.
+
 ## 🎯 Paso 1: Crear tu Primer Copilot Space
 
 **Objetivo:** Configurar un Copilot Space dedicado para trabajar en funcionalidades de la galería.
@@ -56,7 +61,8 @@ src/app/layout.tsx
 next.config.ts
 ```
 9. Select `Add sources` and select `Link files, pull requests, and issues`
-10. Add issue link `https://github.com/ps-copilot-sandbox/copilot-intermediate-gallery-repo/issues/3` and press `save`
+10. Opcionalmente, agrega la URL de un issue real y accesible de tu copia del
+    repositorio. Si no preparaste uno, omite esta fuente.
 11. Select `Add sources` and select `Add text content`
 12. Add the following content and press `save`
 ```markdown
@@ -120,12 +126,13 @@ Follow industry best practices for technical writing, API documentation standard
 ```markdown
 README.md
 COMPONENT_USAGE_GUIDE.md
-src/components/ui/index.ts
+src/components/ui/cards/FeatureCard.tsx
 src/app/page.tsx
 package.json
 ```
 9. Select `Add sources` and select `Link files, pull requests, and issues`
-10. Add issue link `https://github.com/ps-copilot-sandbox/copilot-intermediate-gallery-repo/issues/4` and press `save`
+10. Opcionalmente, agrega la URL de un issue real y accesible de tu copia del
+    repositorio. Si no preparaste uno, omite esta fuente.
 11. Select `Add sources` and select `Add text content`
 12. Add the following content and press `save`
 ```markdown
@@ -199,13 +206,16 @@ Based on the OWASP Top 10 guidelines, what are the most critical security issues
 ```markdown
 I need to create professional documentation for our photo gallery application. Please help me:
 
-1. Generate an OpenAPI 3.0 specification for our photo management API endpoints
+1. Propose an OpenAPI 3.0 design for a hypothetical future photo API
 2. Create detailed component documentation with usage examples for our UI components
 3. Write an Architecture Decision Record (ADR) for choosing Next.js 15 with TypeScript
 4. Improve our README with installation, development, and deployment instructions
 5. Create a contributing guide for other developers
 
 Following industry best practices, what documentation structure would you recommend for this type of application?
+
+Clearly label the API as a proposal: the current repository has no API routes
+or backend and uses mock data.
 ```
 
 3. Ask another question! What else do you want to learn?

@@ -72,7 +72,7 @@ Dime sobre las mejoras que se pueden hacer en este repo.
 ## 💻 Paso 3: Generar Código con Completado de Código de Copilot
 
 ### Instrucciones para Completado de Código
-1. **Navega al archivo:** Abre [`src/app/layout.tsx`](src/app/layout.tsx)
+1. **Navega al archivo:** Abre [`src/app/layout.tsx`](../src/app/layout.tsx)
 2. **Encuentra la ubicación:** Ve a la línea 52 `{/* REPLACE THIS COMMENT */}`
 3. **Elimina el comentario de la línea 52:** y reemplázalo con el siguiente comentario:
 

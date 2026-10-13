@@ -12,6 +12,12 @@ Al finalizar este demo, podrás:
 
 **Tiempo Estimado:** 10 minutos
 
+> **Dependencia externa:** asignar issues a Copilot depende del plan, las
+> políticas y los permisos del repositorio. Ensaya con la cuenta del workshop.
+> Si no está disponible, usa un PR y una sesión preparados; como mínimo,
+> conserva el issue y explica qué pasos serían remotos sin afirmar que se
+> ejecutaron.
+
 ## 🎯 Paso 1: Asignar GitHub Copilot a un Issue
 
 1. Abre el issue que creaste en el ejercicio anterior de MCP.

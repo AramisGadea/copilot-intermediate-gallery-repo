@@ -78,4 +78,4 @@ Fuente de los pasos 3 y 4: [diagnóstico oficial de VS Code](https://code.visual
 
 **Si no tienes una sesión sincronizada o no aparece la opción:** conserva esta parte como explicación y cierra con la evidencia del paso 4. La guía local habla de Share y Manage shared conversations en una conversación de GitHub.com. No presupongas que esa interfaz histórica aparece en tu cuenta ni que equivale al catálogo de sesiones actual.
 
-**Cierre:** vuelve a [lámina 34](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#lamina-34) y resume contexto → respuesta → evidencia. Referencia de esta variante: [compartir y administrar sesiones de agente](https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/manage-and-track-agents).
+**Cierre:** vuelve a la lámina 34 del manual local y resume contexto → respuesta → evidencia. Si consultas desde GitHub, continúa con el [índice del instructor](README.md). Referencia de esta variante: [compartir y administrar sesiones de agente](https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/manage-and-track-agents).
