@@ -73,8 +73,8 @@ Dime sobre las mejoras que se pueden hacer en este repo.
 
 ### Instrucciones para Completado de Código
 1. **Navega al archivo:** Abre [`src/app/layout.tsx`](../src/app/layout.tsx)
-2. **Encuentra la ubicación:** Ve a la línea 52 `{/* REPLACE THIS COMMENT */}`
-3. **Elimina el comentario de la línea 52:** y reemplázalo con el siguiente comentario:
+2. **Encuentra la ubicación:** Busca `{/* REPLACE THIS COMMENT */}`
+3. **Elimina el comentario:** y reemplázalo con el siguiente comentario:
 
 ```tsx
 {/* Crear un footer para esta sección. Debe contener el logo e información de copyright. */}
