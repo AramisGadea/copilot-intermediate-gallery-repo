@@ -2,13 +2,13 @@
 
 ## Usar prompts, instrucciones y Plan Agent
 
-**Objetivo:** ejecutar una personalización y reconocer su efecto. **Ya existe:** `.github/prompts`, `.github/copilot-instructions.md` y `.github/agents/Plan.agent.md`. El tramo MCP de la guía local continúa en [Demo 6](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#demo-mcp); así no se crean dos issues diferentes.
+**Objetivo:** ejecutar una personalización y reconocer su efecto. **Ya existe:** `.github/prompts`, `.github/copilot-instructions.md` y `.github/agents/Plan.agent.md`. El tramo MCP continúa en la Demo 6 del manual local; en GitHub, usa [`../github-mcp-issue-to-pr-demo.md`](../github-mcp-issue-to-pr-demo.md) para no crear dos issues diferentes.
 
 ### Paso 1 · Identificar sesión, modelo y consumo
 
 **Abre:** Chat de VS Code. Muestra el modelo y el tipo de sesión seleccionados. Abre el indicador de uso de Copilot que ofrece tu instalación o la configuración de uso de la cuenta.
 
-**Explica:** «Esta es la cuenta y la experiencia con las que ejecutamos el ejercicio». La guía local habla de Premium Requests; contextualiza lo que muestre tu cuenta con la [lámina 28](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#lamina-28), que distingue ese régimen de AI Credits y fecha sus cifras.
+**Explica:** «Esta es la cuenta y la experiencia con las que ejecutamos el ejercicio». La guía local habla de Premium Requests; contextualiza lo que muestre tu cuenta con la lámina 28 del manual local, que distingue ese régimen de AI Credits y fecha sus cifras.
 
 **Comprueba:** lees la unidad y el periodo que la interfaz muestra, sin atribuir el mismo límite a todas las cuentas. **Si el panel no aparece:** continúa con la personalización y usa la fuente de la lámina para la explicación; no deduzcas consumo desde la longitud de la respuesta.
 
@@ -220,8 +220,8 @@ Ejemplo opcional para agentes compatibles. Antes de activarlo en la raíz, conso
 
 ### Paso 9 · Cerrar o continuar con MCP
 
-**Haz:** revisa los datos agregados y el plan. Decide qué resultados conservar en tu rama de ensayo. Para el recorrido principal continúa con [crear el issue mediante MCP](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#demo-mcp-paso-2), después de preparar su destino.
+**Haz:** revisa los datos agregados y el plan. Decide qué resultados conservar en tu rama de ensayo. Para el recorrido principal continúa con [crear el issue mediante MCP](../github-mcp-issue-to-pr-demo.md), después de preparar su destino.
 
 **Variantes opcionales del repo:** comparar dos modelos con la misma tarea y contexto en sesiones nuevas; ejecutar `generate-new-ui` sobre la tabla de admin; generar un prompt de tests para `src/components/ui/cards/FeatureCard.tsx`. Elige una variante y revisa sus resultados antes de sumar otra.
 
-**Cierre:** vuelve a [lámina 53](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#lamina-53), o a [43](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#lamina-43), [44](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#lamina-44) [45](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#lamina-45) y [46](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#lamina-46) para explicar cada formato.
+**Cierre:** vuelve a la lámina 53 del manual local, o a las láminas 43–46 para explicar cada formato. En GitHub, continúa con la [demo de MCP](../github-mcp-issue-to-pr-demo.md).

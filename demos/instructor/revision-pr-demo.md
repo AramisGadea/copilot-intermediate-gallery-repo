@@ -52,7 +52,7 @@ Propón el ajuste y, tras mi revisión, actualiza ese mismo issue.
 
 **Comprueba:** sigue siendo la misma funcionalidad. Los 400 px son un criterio didáctico elegido para esta demo. La alternativa de orientación de la guía local es otra tarea y requiere datos que hoy faltan.
 
-**Explica:** «Un requisito observable permite revisar después el trabajo delegado». **Pausa aquí:** vuelve a [lámina 53](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#lamina-53) y continúa la presentación. Deja el issue en una pestaña para retomarlo en la 73. Si el issue no quedó creado, anota el bloqueo y prepara un ejemplo previo identificado.
+**Explica:** «Un requisito observable permite revisar después el trabajo delegado». **Pausa aquí:** vuelve a la lámina 53 del manual local y continúa la presentación. Desde GitHub, conserva esta guía abierta. Deja el issue en una pestaña para retomarlo en la 73. Si el issue no quedó creado, anota el bloqueo y prepara un ejemplo previo identificado.
 
 ### Paso 4 · Lámina 73: asignar a Copilot y observar el inicio
 
@@ -62,7 +62,7 @@ Propón el ajuste y, tras mi revisión, actualiza ese mismo issue.
 
 **Explica:** «Ahora la ejecución ocurre en el entorno remoto del agente. La carpeta local y su autenticación MCP no se transfieren automáticamente». **Comprueba:** repo y tarea correctos. Si afirma ejecutar tests, revisa si preparó el runner: la copia inicial no lo tiene.
 
-**Si Copilot no aparece:** comprueba acceso a la función y políticas del repo/cuenta; crear issues y delegar son capacidades distintas. Presenta una sesión de ensayo si la preparaste. **Pausa:** vuelve a [lámina 73](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#lamina-73) y sigue con buenas prácticas mientras se procesa. Referencia: [iniciar sesiones del agente](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/start-copilot-sessions).
+**Si Copilot no aparece:** comprueba acceso a la función y políticas del repo/cuenta; crear issues y delegar son capacidades distintas. Presenta una sesión de ensayo si la preparaste. **Pausa:** vuelve a la lámina 73 del manual local y sigue con buenas prácticas mientras se procesa. Referencia: [iniciar sesiones del agente](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/start-copilot-sessions).
 
 ### Paso 5 · Lámina 82: revisar sesión, diff y evidencia
 
@@ -106,4 +106,4 @@ Cámbiala a > 400 y añade una comprobación del límite. Conserva el resto del 
 
 **Comprueba:** la siguiente propuesta resuelve el punto y conserva el resto del contrato. Si hay bloqueos, resume qué falta. El cierre es una propuesta revisable; hacer merge es una decisión separada.
 
-**Di para cerrar:** «Definimos el trabajo, lo creamos con una herramienta, lo delegamos y contrastamos el resultado con criterios». Vuelve a [lámina 82](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#lamina-82). Referencias: [servidor GitHub MCP](https://github.com/github/github-mcp-server) y [revisión del resultado del agente](https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/review-copilot-output).
+**Di para cerrar:** «Definimos el trabajo, lo creamos con una herramienta, lo delegamos y contrastamos el resultado con criterios». Vuelve a la lámina 82 del manual local o al [índice del instructor](README.md). Referencias: [servidor GitHub MCP](https://github.com/github/github-mcp-server) y [revisión del resultado del agente](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/review-copilot-output).

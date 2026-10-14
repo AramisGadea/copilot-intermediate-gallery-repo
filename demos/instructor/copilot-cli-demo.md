@@ -27,16 +27,18 @@ node --version
 npm install -g @github/copilot
 ```
 
-El devcontainer de la galería propone Node 20: no asumas que esa versión cumple el requisito de la instalación por npm. Prepara CLI con una opción compatible antes de presentar, sin cambiar el runtime de la aplicación en medio de la sesión. Elige una vía de instalación, no ejecutes todas. Fuente: [instalación oficial de Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli).
+El devcontainer y el recorrido local usan Node 22. Aun así, prepara CLI antes
+de presentar y elige una sola vía de instalación. Fuente:
+[instalación oficial de Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli).
 
 **Comprueba:** anota la versión real y abre una sesión de ensayo para completar el inicio de sesión. **Si falla:** resuelve la instalación o políticas antes de impartir; conserva una transcripción de un ensayo real. No cambies silenciosamente a `gh copilot`: este guion utiliza la aplicación `copilot`.
 
 ### Paso 2 · Abrir la sesión en la carpeta de la galería
 
-**Haz:** en tu Mac, abre la copia que está junto al HTML:
+**Haz:** abre la carpeta donde clonaste el repositorio:
 
 ```sh
-cd '/Users/alex/Downloads/Workshop GitHub Copilot/copilot-intermediate-gallery-repo-main'
+cd /ruta/al/copilot-intermediate-gallery-repo
 copilot
 ```
 
@@ -83,7 +85,7 @@ cambio mínimo y casos de comprobación. Todavía no implementes.
 
 **Haz:** enseña los archivos citados, el cálculo explicado y el plan obtenido. Pregunta al grupo qué criterio usaría para comprobar el contador al filtrar. Guarda la respuesta del ensayo con fecha y versión para poder consultarla.
 
-**Comprueba:** puedes explicar por qué no hay implementación ni pruebas ejecutadas todavía. El resultado principal es un análisis contrastado y un plan revisado. **Di:** «La interfaz cambió; mantenemos evidencia, alcance y revisión». Regresa a [lámina 87](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#lamina-87), o a [84](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#lamina-84) para volver al concepto de CLI.
+**Comprueba:** puedes explicar por qué no hay implementación ni pruebas ejecutadas todavía. El resultado principal es un análisis contrastado y un plan revisado. **Di:** «La interfaz cambió; mantenemos evidencia, alcance y revisión». Regresa a la lámina 87 del manual local, o a la 84 para volver al concepto de CLI. Desde GitHub, vuelve al [índice del instructor](README.md).
 
 **Si hubo un bloqueo:** resume el paso alcanzado y muestra el respaldo que sí preparaste. No presentes una transcripción como una ejecución en vivo. Continúa con el siguiente tema sin instalar herramientas durante el tiempo de explicación.
 

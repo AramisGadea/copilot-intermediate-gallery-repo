@@ -19,7 +19,7 @@ Más información sobre la instalación se puede encontrar en el archivo [README
 
 1. **Abre el repositorio en tu IDE** (ej., VS Code)
 2. **Crear nueva rama:** `git checkout -b USUARIO-ejercicios-copilot`
-3. **Instalar paquetes**: Ejecuta `npm install` en la terminal
+3. **Instalar paquetes**: Ejecuta `npm ci` en la terminal
 4. **Iniciar el servidor de desarrollo**: Ejecuta `npm run dev`
 5. **Abrir el proyecto en tu navegador**: Ve a [http://localhost:3000](http://localhost:3000) para una vista previa en vivo
 
@@ -72,9 +72,9 @@ Dime sobre las mejoras que se pueden hacer en este repo.
 ## 💻 Paso 3: Generar Código con Completado de Código de Copilot
 
 ### Instrucciones para Completado de Código
-1. **Navega al archivo:** Abre [`src/app/layout.tsx`](src/app/layout.tsx)
-2. **Encuentra la ubicación:** Ve a la línea 52 `{/* REPLACE THIS COMMENT */}`
-3. **Elimina el comentario de la línea 52:** y reemplázalo con el siguiente comentario:
+1. **Navega al archivo:** Abre [`src/app/layout.tsx`](../src/app/layout.tsx)
+2. **Encuentra la ubicación:** Busca `{/* REPLACE THIS COMMENT */}`
+3. **Elimina el comentario:** y reemplázalo con el siguiente comentario:
 
 ```tsx
 {/* Crear un footer para esta sección. Debe contener el logo e información de copyright. */}

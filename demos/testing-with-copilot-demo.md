@@ -31,6 +31,9 @@ Este es el punto de partida más honesto: un proyecto real de Next.js 15 con Typ
 }
 ```
 
+No añadas Jest a la baseline antes de esta demo: instalarlo y revisar los
+cambios generados es parte intencional del ejercicio.
+
 **Mensaje para la audiencia:** El tiempo que más se pierde en testing no es escribir los tests — es configurar el entorno. Vamos a resolver eso en un prompt.
 
 ---

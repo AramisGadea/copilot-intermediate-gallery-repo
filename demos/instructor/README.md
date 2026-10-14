@@ -4,9 +4,10 @@ Guías desarrolladas para esta copia local del workshop. Complementan las nueve 
 
 ## Abrir el material
 
-El HTML está fuera del repositorio, junto a esta carpeta:
-[Manual interactivo → Demos](../../../Manual-interactivo-GitHub-Copilot-Intermediate.html#demos).
-Si publicas solo el repo en GitHub, ese enlace local al HTML no estará disponible: usa estas guías Markdown o conserva ambos elementos juntos en tu computadora.
+El HTML está fuera del repositorio. Si conservas ambos elementos juntos en tu
+computadora, abre `Manual-interactivo-GitHub-Copilot-Intermediate.html#demos`.
+En GitHub esa ruta local no está disponible: usa estas guías Markdown y toma
+las menciones a láminas solo como referencias para la copia local del manual.
 
 | Recorrido | Archivo | Láminas |
 |---|---|---|
@@ -29,7 +30,7 @@ Si publicas solo el repo en GitHub, ese enlace local al HTML no estará disponib
 2. Compara las dos consultas de contexto; guarda las respuestas y archivos usados.
 3. Selecciona Plan Agent y revisa el plan. Crea la instrucción específica siguiendo la plantilla.
 4. Invoca la skill y contrasta su tabla contra el código. No necesita Jest ni una instalación adicional de paquetes.
-5. Prepara CLI antes del workshop. La vía npm exige Node 22 o posterior; el devcontainer original propone Node 20.
+5. Prepara CLI antes del workshop. La vía npm y el devcontainer usan Node 22.
 6. En un clon con el código publicado, prepara el issue, sesión remota y PR. Solicita Code Review desde Reviewers cuando esté disponible.
 7. Conserva resultados reales del ensayo y registra lo pendiente. La preparación documental no confirma ejecución con tu cuenta.
 

@@ -49,7 +49,7 @@ Para este demo, prueba la misma tarea de codificación con diferentes modelos y 
 ```markdown
 - /src/app/gallery/page.tsx
 - /src/lib/mock-photo-data.ts
-- /src/components/GalleryGrid.tsx
+- /src/components/gallery/GalleryGrid.tsx
 ```
 4. Permanece en la última página: GalleryGrid y resalta las líneas 26 - 43
 5. Agrega el siguiente prompt:
@@ -100,7 +100,7 @@ Pide a copilot que genere un nuevo archivo de prompt para pruebas unitarias. Usa
 ```markdown
 <!-- Agrega archivos relacionados al modo Ask -->
 Archivos relacionados:
-- /src/components/ui/FeatureCard.tsx
+- /src/components/ui/cards/FeatureCard.tsx
 - /.github/prompts/generate-new-ui.prompt.md
 - /.github/prompts/generate-mock-photo-data.prompt.md
 
@@ -139,7 +139,7 @@ Model Context Protocol (MCP) servers allow you to extend GitHub Copilot capabili
 
 Custom instructions let you shape GitHub Copilot’s behavior to match your team’s coding style, best practices, and project conventions. With custom instructions, Copilot can automatically follow your preferred patterns, use your naming conventions, and even adapt to your workflow. Let's see what this repos custom instructions are:
 
-1. Go to `.github/custom-instructions.md`
+1. Ve a `.github/copilot-instructions.md`
 2. Look over the file. Have you noticed coding suggestions have been based around this file?
 
 Now let's generate one with the help of GitHub Copilot.
@@ -154,7 +154,7 @@ Custom instructions works in tandem with MCP to help you guide the agent.
 
 ### Parte Dos: Autenticación MCP
 
-1. Ve a `.vscode/mcp.json` y revisa el archivo de configuración. Hay dos opciones para elegir dependiendo de tu preferencia y versión. Para OAuth, reférete a `Opción A` abajo. Para instrucciones PAT, reférete a `Opción B`
+1. Ve a `.vscode/mcp.json` y revisa la configuración OAuth incluida.
 
 **Opción A:** Instrucciones para VSCode usando OAuth (Versión 1.101 o superior)
 
@@ -164,11 +164,15 @@ Custom instructions works in tandem with MCP to help you guide the agent.
 5. Selecciona "Allow"
 6. Selecciona la cuenta que quieres autenticar y presiona enter
 
-**Opción B:** Instrucciones para VSCode usando GitHub PAT
+**Opción B (alternativa manual):**
 
-2. Sigue las instrucciones de [GitHub MCP Server Repo](https://github.com/github/github-mcp-server?tab=readme-ov-file#remote-github-mcp-server)
+Si OAuth, MCP o los permisos no están disponibles, pide a Copilot que redacte
+el issue, créalo manualmente en GitHub y continúa la explicación. No necesitas
+crear ni compartir un PAT durante el workshop. Consulta el recorrido detallado
+en [la demo de GitHub MCP](github-mcp-issue-to-pr-demo.md#-plan-b-si-mcp-o-oauth-fallan).
 
-Ahora que te has autenticado vía OAuth o PAT, confirmemos las herramientas.
+Si completaste OAuth, confirma las herramientas. Si seguiste la alternativa
+manual, salta al paso de redacción y creación manual del issue.
 
 1. Ve a GitHub Copilot Chat
 2. Selecciona modo "Agent"

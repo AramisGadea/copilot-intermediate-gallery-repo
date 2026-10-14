@@ -6,7 +6,7 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-geist-sans);
+  --font-sans: system-ui, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

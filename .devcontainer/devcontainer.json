@@ -1,6 +1,6 @@
 {
   "name": "Next.js Photo Gallery - Intermediate Copilot",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
   "hostRequirements": {
     "cpus": 4
   },
@@ -11,7 +11,8 @@
       "onAutoForward": "notify"
     }
   },
-  "postCreateCommand": "npm install && npm run dev",
+  "postCreateCommand": "npm ci",
+  "postStartCommand": "npm run dev",
   "customizations": {
     "vscode": {
       "extensions": [
