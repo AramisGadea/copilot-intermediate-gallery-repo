@@ -39,7 +39,7 @@ políticas, planes, permisos y disponibilidad del servicio pueden variar.
 ## Opcional
 
 - Extensiones de ESLint, Prettier y Tailwind CSS (el devcontainer las incluye).
-- Copilot CLI para el módulo de instructor.
+- Copilot CLI para ejecutar prompts desde la terminal.
 - Acceso de escritura a una organización para compartir Spaces.
 
 ## Registro del ensayo

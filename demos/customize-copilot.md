@@ -124,6 +124,16 @@ Revisa la respuesta. ¿Qué otros modos serían útiles para este repo?
 **Si el tiempo lo permite**
 Intenta implementar los cambios del plan usando un modo diferente para explorar cómo varía la experiencia.
 
+### Skills del repositorio
+
+Los skills de `.github/skills/` guardan el conocimiento del producto para invocarlo explícitamente desde Chat. Este repositorio incluye `revisar-galeria`, para detectar regresiones en filtros, búsqueda, likes y Load More, y `auditar-capacidades-y-riesgos`, para contrastar lo que la interfaz promete con lo que el código implementa.
+
+```markdown
+Usa el skill auditar-capacidades-y-riesgos para revisar las páginas de upload y administración. Distingue capacidades reales, simuladas y controles necesarios antes de producción.
+```
+
+Revisa la respuesta: debe clasificar cada capacidad y separar las simulaciones intencionales del workshop de los controles que faltarían en producción.
+
 ## 🛠️ Step 5: Custom instructions and MCP Servers
 
 ### Understanding MCP Servers
@@ -198,6 +208,7 @@ Marca cada ítem al completarlo:
 - [ ] Practiqué técnicas de cambio de modelo
 - [ ] Usé archivo de prompt específico del proyecto
 - [ ] Experimenté con diferentes modos de agente personalizados
+- [ ] Invoqué un skill del repositorio desde Copilot Chat
 - [ ] Entendí los servidores MCP o configuré patrones de instrucción personalizada
 - [ ] Apliqué personalizaciones para mejorar mi flujo de trabajo de desarrollo
 
