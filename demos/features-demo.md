@@ -19,7 +19,7 @@ Más información sobre la instalación se puede encontrar en el archivo [README
 
 1. **Abre el repositorio en tu IDE** (ej., VS Code)
 2. **Crear nueva rama:** `git checkout -b USUARIO-ejercicios-copilot`
-3. **Instalar paquetes**: Ejecuta `npm install` en la terminal
+3. **Instalar paquetes**: Ejecuta `npm ci` en la terminal
 4. **Iniciar el servidor de desarrollo**: Ejecuta `npm run dev`
 5. **Abrir el proyecto en tu navegador**: Ve a [http://localhost:3000](http://localhost:3000) para una vista previa en vivo
 
