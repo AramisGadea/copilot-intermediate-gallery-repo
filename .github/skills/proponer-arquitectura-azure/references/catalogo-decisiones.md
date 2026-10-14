@@ -34,7 +34,7 @@ Cada decisión indica el punto de partida evidenciado en el repositorio para que
 
 ## D3. Entrega y caché de imágenes
 
-**Punto de partida:** la galería consume imágenes remotas definidas en `src/lib/mock-photo-data.ts`.
+**Punto de partida:** `src/lib/mock-photo-data.ts` contiene rutas locales de placeholder; `GalleryGrid` no las utiliza para cargar imágenes y muestra rectángulos con gradientes. La entrega real de fotografías es una capacidad objetivo, no un flujo implementado.
 
 **Alternativas:** red de entrega de contenido delante del almacenamiento; servir desde el almacenamiento sin capa de entrega; servir a través de la aplicación.
 
