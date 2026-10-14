@@ -126,13 +126,24 @@ Intenta implementar los cambios del plan usando un modo diferente para explorar 
 
 ### Skills del repositorio
 
-Los skills de `.github/skills/` guardan el conocimiento del producto para invocarlo explícitamente desde Chat. Este repositorio incluye `revisar-galeria`, para detectar regresiones en filtros, búsqueda, likes y Load More, y `auditar-capacidades-y-riesgos`, para contrastar lo que la interfaz promete con lo que el código implementa.
+Los skills de `.github/skills/` guardan el conocimiento del producto para invocarlo explícitamente desde Chat. Este repositorio incluye `revisar-galeria`, para detectar regresiones en filtros, búsqueda, likes y Load More; `auditar-capacidades-y-riesgos`, para contrastar lo que la interfaz promete con lo que el código implementa; y `proponer-arquitectura-azure`, para diseñar la arquitectura objetivo que soportaría esas capacidades.
 
 ```markdown
 Usa el skill auditar-capacidades-y-riesgos para revisar las páginas de upload y administración. Distingue capacidades reales, simuladas y controles necesarios antes de producción.
 ```
 
 Revisa la respuesta: debe clasificar cada capacidad y separar las simulaciones intencionales del workshop de los controles que faltarían en producción.
+
+Después encadena el segundo skill sobre esa misma salida:
+
+```markdown
+Usa el skill proponer-arquitectura-azure partiendo de la auditoría anterior. Asume el perfil por defecto del cliente y declara los supuestos.
+```
+
+**DISCUSIÓN**
+Observa la secuencia completa: la auditoría detecta que la privacidad y el procesamiento de imágenes no existen, el skill de arquitectura propone cómo soportarlos en Azure y el agente `BicepArchitect` de la [demo de agentes personalizados](custom-agent-bicep-demo.md) materializaría esa infraestructura. Tres personalizaciones distintas de Copilot colaborando sobre el mismo repositorio.
+
+Fíjate en que el skill de arquitectura **pregunta las restricciones del cliente** antes de proponer y en que nunca afirma costes ni SLA: remite a la documentación y a la calculadora oficiales.
 
 ## 🛠️ Step 5: Custom instructions and MCP Servers
 
@@ -208,7 +219,7 @@ Marca cada ítem al completarlo:
 - [ ] Practiqué técnicas de cambio de modelo
 - [ ] Usé archivo de prompt específico del proyecto
 - [ ] Experimenté con diferentes modos de agente personalizados
-- [ ] Invoqué un skill del repositorio desde Copilot Chat
+- [ ] Encadené dos skills del repositorio: auditoría y arquitectura
 - [ ] Entendí los servidores MCP o configuré patrones de instrucción personalizada
 - [ ] Apliqué personalizaciones para mejorar mi flujo de trabajo de desarrollo
 
